@@ -1,6 +1,6 @@
 # External Sorting
 
-Sorting is the most fundamental algorithmic problem in computer science and it's usually the first step of the solutions of many large scale problems. Therefore, many sorting algorithms have been invented for dierent purposes. With the recent developments in networking and mobile services, we are constantly generating and processing huge amounts of data that is impossible to fit into a single memory. Instead, we use external sorting methods.
+Sorting is the most fundamental algorithmic problem in computer science and it's usually the first step of the solutions of many large scale problems. Therefore, many sorting algorithms have been invented for different purposes. With the recent developments in networking and mobile services, we are constantly generating and processing huge amounts of data that is impossible to fit into a single memory. Instead, we use external sorting methods.
 
 External sorting is a term for a class of sorting algorithms that can handle massive amounts of data. External sorting is required when the data being sorted do not fit into the main memory of a computing device (usually RAM) and instead they must reside in the slower external memory (usually a hard drive).
 
@@ -13,3 +13,9 @@ External sorting typically uses a hybrid sort-merge strategy. In the sorting pha
 5. Merge the data in the temporary les into a single file.
 
 ![Figure 1](http://i1027.photobucket.com/albums/y338/suyunu/chart_zpsdvdi6gqv.jpg)
+
+## Input/Output
+
+`./externalSort [input_file] [output_file]`
+
+The input file contains the unsorted double precision numbers, one at a line. The first line in the input file will be the total number of numbers. The output file will contain those numbers in increasingly sorted order.
